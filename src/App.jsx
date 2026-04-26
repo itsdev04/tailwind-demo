@@ -86,6 +86,23 @@ function App() {
       <p className="sm:text-amber-300 md:text-green-300 lg:text-blue-300">
         Resize the screen to see changes!
       </p>
+
+      {/* Customization on utility classes */}
+      <div className="bg-[#3b82f6] h-40 w-full text-5xl text-white p-4 m-4 text-center flex items-center justify-center rounded-lg">
+        Customized height, width and background color
+      </div>
+
+      {/* Theme colors */}
+      <div className="bg-[var(--color-mint-500)] h-40 w-full text-5xl text-white p-4 m-4 text-center flex items-center justify-center rounded-lg">
+        Theme color demonstration
+      </div>
+
+      <div className="bg-[var(--color-primary)] h-40 w-full text-5xl text-white p-4 m-4 text-center flex items-center justify-center rounded-lg">
+        Backgroud Primary color from theme
+      </div>
+      <div className="bg bg-red-400 h-40 w-full font-display text-white p-4 m-4 text-center flex items-center justify-center rounded-lg">
+        Font family from theme
+      </div>
     </div>
   );
 }
